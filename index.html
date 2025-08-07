@@ -229,6 +229,21 @@
             margin: 1rem auto;
             display: block;
         }
+        
+        /* --- Video Placeholder Styling --- */
+        .video-wrapper {
+            width: 100%;
+            max-width: 640px;
+            margin: 3rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .video-wrapper video {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
 
         /* --- Scroll Animation --- */
         .reveal {
@@ -284,7 +299,7 @@
                 <h1 class="reveal">Meta Werbekampagnen-Planung</h1>
                 <p class="reveal">Planung und Konzeption der "Sommer-Service-Check"-Kampagne.</p>
                 <audio controls class="reveal">
-                    <source src="audiozusammenfassung.m4a" type="audio/mp4">
+                    <source src="a1.mp3" type="audio/mpeg">
                     Ihr Browser unterstützt das Audio-Element nicht.
                 </audio>
             </div>
@@ -351,18 +366,18 @@
                 <div class="grid-layout">
                     <div class="card">
                         <h3>Mockup 1</h3>
-                        <img src="1754552641267.png" alt="Anzeigen-Mockup 1" class="mockup-image">
+                        <img src="m1.png" alt="Anzeigen-Mockup 1" class="mockup-image">
                     </div>
                     <div class="card">
                         <h3>Mockup 2</h3>
-                        <img src="1754553978890.png" alt="Anzeigen-Mockup 2" class="mockup-image">
+                        <img src="m2.png" alt="Anzeigen-Mockup 2" class="mockup-image">
                     </div>
                 </div>
-                 <div class="card">
+                 <div class="card" style="margin-top: 3rem;">
                     <h3>Video-Platzhalter</h3>
                      <div class="video-wrapper">
                         <video controls>
-                            <source src="video.mp4" type="video/mp4">
+                            <source src="v1.mp4" type="video/mp4">
                             Ihr Browser unterstützt das Video-Tag nicht.
                         </video>
                     </div>
