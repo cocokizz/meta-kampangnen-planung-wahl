@@ -221,6 +221,12 @@
             margin-top: 3rem;
         }
         
+        .mockup-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        
         /* --- Mockup Image Styling --- */
         .mockup-image {
             width: 100%;
@@ -272,6 +278,9 @@
             .container { padding: 0 1.5rem; }
             h1 { font-size: 2.5rem; }
             h2 { font-size: 2rem; }
+            .mockup-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -363,7 +372,7 @@
                     <h2>Anzeigen-Mockups & Video</h2>
                     <p>Visuelle Beispiele unserer geplanten Werbeanzeigen.</p>
                 </div>
-                <div class="grid-layout">
+                <div class="mockup-grid">
                     <div class="card">
                         <h3>Mockup 1</h3>
                         <img src="m1.png" alt="Anzeigen-Mockup 1" class="mockup-image">
